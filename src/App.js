@@ -21,6 +21,7 @@ export default function App() {
     }),
     onSubmit: (values) => {
       console.log(values);
+      alert("Successflly submitted");
     },
   });
   return (
